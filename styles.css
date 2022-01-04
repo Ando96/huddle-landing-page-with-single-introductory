@@ -216,6 +216,7 @@ footer .attribution a {
   body {
     background-image: url(images/bg-desktop.svg);
     background-size: cover;
+    height: 100%;
   }
 
   /* ----------------------header------------- */
