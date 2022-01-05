@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://ando96.github.io/huddle-landing-page-with-single-introductory/)
 
 ## My process
 
@@ -43,23 +43,37 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+I found out there is a shorthand property for declaring background properties.
+```css
+.body{
+  background: var(--violet) url(images/bg-mobile.svg) no-repeat 0 top;
+}
 ```
+
+From looking at other peoples solutions I also found out you can declare fonts and font weights as variables.
+```css
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --magenta: hsl(300, 69%, 71%);
+    --white: #fff;
+
+    --normal: 400;
+    --bold: 600;
+
+    --sans: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+```
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+As with all my other readme files, I'm still working on improving my HTML and CSS skilss, I'll hopefully be moving onto Javascript soon.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools] https://www.w3schools.com/css/default.asp - Has everything you need when it comes to HTML and CSS basics
+- [MDN] https://developer.mozilla.org/en-US/- Has a lot of useful and interesting information about the different HTML and CSS tags, I find a new attribute or tag every time I'm looking for something
 
 ## Author
 
