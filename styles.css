@@ -129,10 +129,6 @@ footer .attribution a {
   text-decoration: none;
 }
 
-ul{
-  list-style-type: none;
-}
-
 /* ---------------------MEDIA QUERIES-------------------- */
 
 @media (min-width: 62.5em) {
